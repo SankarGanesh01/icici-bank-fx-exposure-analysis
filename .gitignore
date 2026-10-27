@@ -1,0 +1,48 @@
+# R session and workspace files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# RStudio project-local settings
+.Rproj.user/
+*.Rproj
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor settings
+.vscode/
+.idea/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+
+# Temporary files and logs
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# Downloaded and processed market data
+data/raw/
+data/processed/
+data/interim/
+
+# Generated local datasets
+FDA_FINAL_DATA.csv
+*.rds
+*.RData
+
+# Keep documentation and approved research outputs
+!data/README.md
+!figures/
+!figures/README.md
+!tables/
+!tables/README.md
